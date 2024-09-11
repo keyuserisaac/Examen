@@ -1,0 +1,55 @@
+/* global.css */
+
+:root {
+    --primary-bg-light: #007bff;
+    --primary-bg-dark: #2b2b2b;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+    --btn-light-bg: #ffffff;
+    --btn-light-text: #007bff;
+    --btn-light-hover-bg: #e2e6ea;
+    --btn-light-hover-text: #0056b3;
+    --card-bg-light: #ffffff;
+    --card-bg-dark: #333;
+    --input-border-light: #d1dace;
+    --input-border-dark: #ffffff;
+    --input-bg-light: #ffffff;
+    --input-bg-dark: #333;
+    --input-text-light: #000000;
+    --input-text-dark: #e0e0e0;
+    --btn-primary-bg-light: #50acaf;
+    --btn-primary-bg-dark: #007bff;
+    --btn-primary-border-light: #dbdbdb;
+    --btn-primary-border-dark: #007bff;
+    --btn-primary-hover-bg-light: #007bff;
+    --btn-primary-hover-bg-dark: #0056b3;
+    --btn-primary-hover-border-light: #007bff;
+    --btn-primary-hover-border-dark: #0056b3;
+  }
+  
+  [data-theme='dark'] {
+    --card-bg: var(--card-bg-dark);
+    --input-border: var(--input-border-dark);
+    --input-bg: var(--input-bg-dark);
+    --input-text: var(--input-text-dark);
+    --btn-primary-bg: var(--btn-primary-bg-dark);
+    --btn-primary-border: var(--btn-primary-border-dark);
+    --btn-primary-hover-bg: var(--btn-primary-hover-bg-dark);
+    --btn-primary-hover-border: var(--btn-primary-hover-border-dark);
+    --text-color: var(--text-light);
+    --primary-bg: var(--primary-bg-dark);
+  }
+  
+  [data-theme='light'] {
+    --card-bg: var(--card-bg-light);
+    --input-border: var(--input-border-light);
+    --input-bg: var(--input-bg-light);
+    --input-text: var(--input-text-dark);
+    --btn-primary-bg: var(--btn-primary-bg-light);
+    --btn-primary-border: var(--btn-primary-border-light);
+    --btn-primary-hover-bg: var(--btn-primary-hover-bg-light);
+    --btn-primary-hover-border: var(--btn-primary-hover-border-light);
+    --text-color: var(--text-dark);
+    --primary-bg: var(--primary-bg-light);
+  }
+  
